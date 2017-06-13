@@ -9,8 +9,8 @@
 ..
 .. .............................................................................
 
-Graco
-=====
+Graco (bundle repo)
+===================
 .. image:: https://travis-ci.org/vovkos/graco_b.svg?branch=master
 	:target: https://travis-ci.org/vovkos/graco_b
 .. image:: https://ci.appveyor.com/api/projects/status/8oytbu8jc4b57t0u?svg=true

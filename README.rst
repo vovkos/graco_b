@@ -13,15 +13,27 @@ Graco
 =====
 .. image:: https://travis-ci.org/vovkos/graco_b.svg?branch=master
 	:target: https://travis-ci.org/vovkos/graco_b
+.. image:: https://ci.appveyor.com/api/projects/status/8oytbu8jc4b57t0u?svg=true
+	:target: https://ci.appveyor.com/project/vovkos/graco-b
 
 Abstract
 --------
 
-Graco is a EBNF-based generator of table-driven top-down parsers of LL(k) grammars featuring:
+``graco_b`` is a helper *bundle repository* for the **Graco** project. It contains both `Graco <https://github.com/vovkos/graco>`_ and `AXL <https://github.com/vovkos/axl>`_ as *git submodules* and provides a straightforward build sequence:
 
-- predictable & configurable conflict resolution mechanism;
-- retargetable back-end (via Lua string templates);
-- ANYTOKEN support;
-- external tokenization loop;
-- convenient syntax for passing and returning rule arguments;
-- and more...
+.. code-block:: bash
+
+	# clone bundle repo
+
+	git clone https://github.com/vovkos/graco_b
+	cd graco_b
+	git submodule update --init
+
+	# build
+
+	mkdir build
+	cd build
+	cmake ..
+	cmake --build .
+
+``graco_b`` is automatically updated each time a new commit to the ``master`` branch of `Graco <https://github.com/vovkos/graco>`_ successfully passes build and test stages on both `Travis CI <https://travis-ci.org/vovkos/graco>`_ and `AppVeyor CI <https://ci.appveyor.com/project/vovkos/graco>`_.

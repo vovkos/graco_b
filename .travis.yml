@@ -39,7 +39,8 @@ matrix:
           env: TARGET_CPU=x86 BUILD_CONFIGURATION=Release
 
 install:
-    - source graco/ci/travis/install-$TRAVIS_OS_NAME.sh
+    - source graco/ci/travis/set-env.sh
+    - bash graco/ci/travis/install-$TRAVIS_OS_NAME.sh
 
 script:
     - mkdir build

@@ -11,10 +11,8 @@
 
 Graco (bundle repo)
 ===================
-.. image:: https://travis-ci.org/vovkos/graco_b.svg?branch=master
-	:target: https://travis-ci.org/vovkos/graco_b
-.. image:: https://ci.appveyor.com/api/projects/status/8oytbu8jc4b57t0u?svg=true
-	:target: https://ci.appveyor.com/project/vovkos/graco-b
+.. image:: https://github.com/vovkos/graco_b/actions/workflows/ci.yml/badge.svg
+	:target: https://github.com/vovkos/graco_b/actions/workflows/ci.yml
 
 Abstract
 --------

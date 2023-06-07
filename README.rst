@@ -36,4 +36,4 @@ Abstract
 	cmake ..
 	cmake --build .
 
-``graco_b`` is automatically updated each time a new commit to the ``master`` branch of `Graco <https://github.com/vovkos/graco>`_ successfully passes build and test stages on both `Travis CI <https://travis-ci.org/vovkos/graco>`_ and `AppVeyor CI <https://ci.appveyor.com/project/vovkos/graco>`_.
+``graco_b`` is automatically updated each time a new commit to the ``master`` branch of `Graco <https://github.com/vovkos/graco>`_ successfully passes build and test stages on `GitHub Actions <https://github.com/vovkos/graco/actions>`_..
